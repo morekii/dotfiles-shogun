@@ -1,0 +1,57 @@
+* {
+    font-family: "Terminess Nerd Font", "GohuNew";
+    font-size: 14px;
+}
+
+/* El fondo del panel lateral */
+.control-center {
+    background: #101010; /* Tinta oscura */
+    border: 2px solid #ffffff; /* Borde blanco */
+    border-radius: 0px; /* Cuadrado perfecto */
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+/* Las notificaciones flotantes (Popups) */
+.notification {
+    background: #101010;
+    border: 2px solid #ffffff;
+    border-radius: 0px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 5px;
+}
+
+.notification-content {
+    padding: 10px;
+}
+
+/* Títulos y texto */
+.summary {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.body {
+    color: #dddddd;
+}
+
+/* Botones (No Molestar, Clear All) */
+button {
+    background: #101010;
+    border: 1px solid #666666;
+    color: #ffffff;
+    border-radius: 0px;
+    padding: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background: #ffffff; /* Invertir colores al pasar el mouse */
+    color: #101010;
+}
+
+/* Widget de Música (Mpris) */
+.mpris {
+    background: #1a1a1a;
+    border: 1px solid #333333;
+    padding: 10px;
+}
