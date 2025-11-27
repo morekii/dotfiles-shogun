@@ -120,3 +120,5 @@ button selected {
     background-color: @bg-col;
     text-color: @border-col;
 }
+
+@theme "/usr/share/rofi/themes/DarkBlue.rasi"

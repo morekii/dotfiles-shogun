@@ -27,6 +27,8 @@ link_config kitty
 link_config rofi
 link_config fastfetch
 link_config swaync
+link_config sway      
+link_config swaylock
 
 # Agrega aquí otras si moviste vesktop o fontconfig:
 # link_config vesktop
